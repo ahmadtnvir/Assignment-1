@@ -8,7 +8,7 @@
   width: 1300px;
   height: 600px;
   border-radius: 16px;
-  margin: 50px 140px 120px 140px;
+  margin: 50px auto 120px;
   background-image: linear-gradient(to top, #07021100, #070211),
     url("../images/banner/Banner\ Image.png");
 }
@@ -31,4 +31,48 @@
   line-height: 95px;
   width: 630px;
   padding: 0 344px 177px 344px;
+}
+
+.offer-section {
+  width: 800px;
+  height: 700px;
+  margin: 50px auto 0;
+}
+
+.offer-container {
+  width: 410px;
+  height: 260px;
+  text-align: center;
+  margin: 10px auto 50px;
+}
+
+.offer-title {
+  width: 380px;
+  height: 110px;
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  margin: 20px auto 50px;
+}
+
+.offer-info {
+  width: 400px;
+  height: 30px;
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.offer-categories {
+  width: 410px;
+  height: 55px;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 50px;
 }
