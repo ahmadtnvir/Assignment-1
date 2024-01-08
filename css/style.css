@@ -169,25 +169,25 @@
   font-weight: 700;
 }
 
-.comming-soon-offer{
+.comming-soon-offer {
   width: 1300px;
   margin: 0 auto 150px;
   display: flex;
   justify-content: space-between;
 }
 
-.comming-soon{
+.comming-soon {
   width: 390px;
   margin: auto 0;
 }
 
-.comming-soon-heading{
+.comming-soon-heading {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
 }
 
-.comming-soon-description{
+.comming-soon-description {
   color: #07021199;
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -195,7 +195,7 @@
   line-height: 32px;
 }
 
-.comming-soon-img{
+.comming-soon-img {
   border: 15px solid #f00;
   padding: 40px;
   width: 365px;
@@ -204,21 +204,95 @@
   margin: auto 0;
 }
 
-.comming-soon-offer-greeting{
+.comming-soon-offer-greeting {
   width: 280px;
   margin: auto 0;
 }
 
-.greeting-title{
+.greeting-title {
   color: #f00;
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
 }
 
-#greating-img{
+#greating-img {
   width: 140px;
   height: 140px;
   margin-top: 43px;
 }
 
+.functional-section {
+  width: 1300px;
+  /* background: lightgray; */
+  margin: 0 auto 150px;
+}
+
+.functional-section-header {
+  width: 1000px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.functional-section-intro {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.functional-section-heading {
+  color: #070211;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.holiday {
+  color: #f00;
+}
+
+.functional-section-description {
+  color: #07021199;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.surprise-discount-section {
+  background-image: url("../images/rectangle/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+  /* background-position-x: right; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-1 {
+  /* background-image: url("../images/rectangle/Rectangle\ 2.png"); */
+  /* width: 50px;
+  height: 50px; */
+}
+
+.img-2 {
+  /* width: 230px;
+  height: 230px; */
+  background-image: url("../images/rectangle/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position-x: right;
+  width: 530px;
+  height: 600px;
+}
+
+.img-2 img {
+  width: 230px;
+  height: 230px;
+  margin-top: 120px;
+  /* margin-right: 250px; */
+  /* margin-left: 5px; */
+}
