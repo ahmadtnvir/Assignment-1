@@ -36,7 +36,7 @@
 .offer-section {
   width: 800px;
   height: 700px;
-  margin: 50px auto 0;
+  margin: 0 auto;
 }
 
 .offer-container {
@@ -81,7 +81,7 @@
   width: 1300px;
   height: 600px;
   border-radius: 16px;
-  margin: 200px auto 120px;
+  margin: 200px auto 150px;
   display: flex;
   background-image: linear-gradient(to left, #07021100, #070211),
     url("../images/banner/Vectorrr.png");
@@ -131,4 +131,40 @@
   width: 320px;
   height: 465px;
   padding: 68px 138px 68px 50px;
+}
+
+.party-info {
+  width: 1300px;
+  height: 480px;
+  margin: 0 auto 150px;
+  background-image: linear-gradient(to bottom, #ff00001a, #ff000000);
+}
+
+.party-info-container {
+  text-align: center;
+  padding: 100px 380px;
+}
+
+.party-details {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600px;
+  line-height: 56px;
+}
+
+.place-data-time {
+  color: #f00;
+  text-align: center;
+}
+#join-now-btn {
+  margin-top: 50px;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
