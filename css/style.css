@@ -168,3 +168,57 @@
   font-size: 20px;
   font-weight: 700;
 }
+
+.comming-soon-offer{
+  width: 1300px;
+  margin: 0 auto 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comming-soon{
+  width: 390px;
+  margin: auto 0;
+}
+
+.comming-soon-heading{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.comming-soon-description{
+  color: #07021199;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.comming-soon-img{
+  border: 15px solid #f00;
+  padding: 40px;
+  width: 365px;
+  height: 365px;
+  border-radius: 50%;
+  margin: auto 0;
+}
+
+.comming-soon-offer-greeting{
+  width: 280px;
+  margin: auto 0;
+}
+
+.greeting-title{
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#greating-img{
+  width: 140px;
+  height: 140px;
+  margin-top: 43px;
+}
+
