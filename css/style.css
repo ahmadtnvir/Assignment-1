@@ -5,7 +5,7 @@
 }
 
 .banner {
-  width: 1300px;
+  max-width: 1300px;
   height: 600px;
   border-radius: 16px;
   margin: 50px auto 120px;
@@ -78,7 +78,7 @@
 }
 
 .party-section {
-  width: 1300px;
+  max-width: 1300px;
   height: 600px;
   border-radius: 16px;
   margin: 200px auto 150px;
@@ -270,34 +270,22 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position-y: bottom;
-  /* background-position-x: right; */
   display: flex;
-  justify-content: space-between;
-}
-
-.img-1 {
-  /* background-image: url("../images/rectangle/Rectangle\ 2.png"); */
-  /* width: 50px;
-  height: 50px; */
 }
 
 .img-2 {
-  /* width: 230px;
-  height: 230px; */
+  width: 530px;
+  height: 441px;
   background-image: url("../images/rectangle/Rectangle\ 1.png");
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: contain;
   background-position-x: right;
-  width: 530px;
-  height: 600px;
 }
 
 .img-2 img {
   width: 230px;
   height: 230px;
   margin-top: 120px;
-  /* margin-right: 250px; */
-  /* margin-left: 5px; */
 }
 
 .portfolio-section {
@@ -362,19 +350,17 @@
   font-weight: 700;
 }
 
-.footer-section{
+.footer-section {
   width: 100%;
   background: #070211;
-  
 }
 
-
-.address-container{
+.address-container {
   display: flex;
   justify-content: space-between;
   padding: 120px 140px 50px 140px;
 }
-.address{
+.address {
   width: 300px;
   height: 80px;
   line-height: 32px;
@@ -384,14 +370,14 @@
   font-weight: 500;
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
   line-height: 32px;
 }
 
-.nmbr{
+.nmbr {
   margin-left: 10px;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -399,7 +385,7 @@
   font-weight: 500;
 }
 
-.web{
+.web {
   margin-left: 10px;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -407,7 +393,7 @@
   font-weight: 500;
 }
 
-hr{
+hr {
   width: 1300px;
   margin: 0 auto;
 }
@@ -415,25 +401,24 @@ hr{
 /* hr::hover{
   background: skyblue;
 } */
-.media{
+.media {
   text-align: center;
   margin: 48px 0;
 }
 
-.mi{
+.mi {
   width: 40px;
   height: 40px;
   margin-right: 25px;
-
 }
 
-.copyrights-section{
+.copyrights-section {
   display: flex;
   justify-content: space-between;
   padding: 100px 140px;
 }
 
-.unsbs{
+.unsbs {
   /* width: 300px; */
   height: 80px;
   line-height: 32px;
@@ -442,5 +427,4 @@ hr{
   font-size: 18px;
   font-weight: 500;
   margin-left: 10px;
-
 }
