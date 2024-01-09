@@ -363,6 +363,84 @@
 }
 
 .footer-section{
-  max-width: 1600px;
-  background: lavender;
+  width: 100%;
+  background: #070211;
+  
+}
+
+
+.address-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 140px 50px 140px;
+}
+.address{
+  width: 300px;
+  height: 80px;
+  line-height: 32px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  line-height: 32px;
+}
+
+.nmbr{
+  margin-left: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.web{
+  margin-left: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+hr{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/* hr::hover{
+  background: skyblue;
+} */
+.media{
+  text-align: center;
+  margin: 48px 0;
+}
+
+.mi{
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+
+}
+
+.copyrights-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 140px;
+}
+
+.unsbs{
+  /* width: 300px; */
+  height: 80px;
+  line-height: 32px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+
 }
