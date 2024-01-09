@@ -227,7 +227,6 @@
 
 .functional-section {
   width: 1300px;
-  /* background: lightgray; */
   margin: 0 auto 150px;
 }
 
@@ -398,9 +397,6 @@ hr {
   margin: 0 auto;
 }
 
-/* hr::hover{
-  background: skyblue;
-} */
 .media {
   text-align: center;
   margin: 48px 0;
@@ -419,7 +415,6 @@ hr {
 }
 
 .unsbs {
-  /* width: 300px; */
   height: 80px;
   line-height: 32px;
   color: #fff;
